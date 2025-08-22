@@ -1,0 +1,5 @@
+print("Bem vindo a calculadora!")
+valor_da_conta = int(input("qual o valor total da conta"))
+porcentagem = int(input("qual a porcentagem da gorjeta? 10 ou 15%"))
+pessoas = int(input("quantas pessoas vão pagar"))
+print("cada pessoa vai pagar" ,(valor_da_conta *(porcentagem / 100)/ pessoas)) 
